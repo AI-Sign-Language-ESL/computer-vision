@@ -1,0 +1,2 @@
+# See repository-root requirements.txt for shared dependencies.
+-r ../../requirements.txt

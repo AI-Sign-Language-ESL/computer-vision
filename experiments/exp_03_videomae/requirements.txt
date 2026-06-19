@@ -1,0 +1,5 @@
+# See repository-root requirements.txt for shared dependencies.
+-r ../../requirements.txt
+transformers>=4.40
+decord
+av

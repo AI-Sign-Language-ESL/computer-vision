@@ -1,0 +1,14 @@
+experiment_name: exp_04_spoter
+num_classes: 645
+seed: 42
+dataset_root: datasets/sample_data
+batch_size: 32
+epochs: 100
+learning_rate: 0.001
+device: cuda
+extra:
+  hidden_dim: 108
+  num_heads: 9
+  encoder_layers: 6
+  decoder_layers: 6
+  seq_len: 96

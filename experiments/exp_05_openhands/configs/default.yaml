@@ -1,0 +1,14 @@
+experiment_name: exp_05_openhands
+num_classes: 645
+seed: 42
+dataset_root: datasets/sample_data
+batch_size: 32
+epochs: 100
+learning_rate: 0.001
+device: cuda
+extra:
+  in_channels: 2
+  num_frames: 96
+  num_keypoints: 27
+  graph_layout: mediapipe_27
+  graph_strategy: spatial
