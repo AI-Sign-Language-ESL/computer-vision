@@ -58,7 +58,7 @@ See [`docs/architecture.md`](docs/architecture.md) for the detailed pipeline.
 | Exp-02 | Transformer | MediaPipe landmarks | 6.56% | 22.40% | Rejected |
 | Exp-03 | VideoMAE | RGB videos | 22.40% | 55.00% | Baseline |
 | Exp-04 | SPOTER | Landmark sequences | 24.55% | 44.11% | Baseline |
-| Exp-05 | OpenHands Decoupled ST-GCN | Skeleton data | 22.67% | 52.79% | **Final** |
+| Exp-05 | OpenHands Decoupled ST-GCN | Skeleton data | 71.30% | 89.99% | **Final** |
 
 The full chronological narrative is in
 [`docs/experiment_log.md`](docs/experiment_log.md).
