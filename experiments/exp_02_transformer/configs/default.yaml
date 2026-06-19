@@ -1,0 +1,15 @@
+experiment_name: exp_02_transformer
+num_classes: 645
+seed: 42
+dataset_root: datasets/sample_data
+batch_size: 32
+epochs: 100
+learning_rate: 0.001
+device: cuda
+extra:
+  d_model: 256
+  nhead: 8
+  num_layers: 4
+  dropout: 0.1
+  seq_len: 96
+  input_dim: 225

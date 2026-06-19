@@ -1,0 +1,13 @@
+experiment_name: exp_03_videomae
+num_classes: 645
+seed: 42
+dataset_root: datasets/sample_data
+batch_size: 32
+epochs: 100
+learning_rate: 0.001
+device: cuda
+extra:
+  num_frames: 16
+  image_size: 224
+  patch_size: 16
+  pretrained: MCG-NJU/videomae-base

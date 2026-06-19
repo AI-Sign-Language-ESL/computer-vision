@@ -1,0 +1,15 @@
+experiment_name: exp_01_bilstm
+num_classes: 645
+seed: 42
+dataset_root: datasets/sample_data
+batch_size: 32
+epochs: 100
+learning_rate: 0.001
+device: cuda
+extra:
+  hidden_size: 256
+  num_layers: 2
+  dropout: 0.3
+  bidirectional: True
+  seq_len: 96
+  input_dim: 225
